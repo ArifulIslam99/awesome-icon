@@ -93,8 +93,10 @@ function IconModal(props) {
           </div>
         </div>
       </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+      <Modal.Footer className="fst-italic">
+        <p>Released version 1.3.4 | </p>
+        <p>Last Updated on 8th September 2023</p>
+        <Button className="btn-warning" onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );

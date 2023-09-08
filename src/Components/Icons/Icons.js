@@ -64,7 +64,7 @@ const Icons = () => {
   };
 
   return (
-    <div>
+    <div className="my-5">
       {/* Implementing Search Bar*/}
       <div className="input-group mb-3 w-50 mx-auto">
         <input
