@@ -1,0 +1,64 @@
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Three columns with equal width */
+    grid-gap: 30px; /* Gap between grid items */
+  }
+  .App {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    width: 35%;
+    
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .menu-option {
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 15px;
+    transition: 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .menu-option:hover {
+    background-color: rgb(236, 221, 201);
+    
+  }
+  
+  .menu-option.selected {
+    border-bottom: 3px solid orangered;
+  }
+
+
+  .center-div {
+    margin: 0 auto;
+}
+
+.reset
+{
+  width: 70px;
+  border:  1px solid rgb(255, 251, 251);
+  padding: 5px;;
+}
+@media (min-width: 992px) {
+    .width-85 {
+        width: 85%;
+    }
+}
+
+.filterDiv
+{ 
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selectForm
+{
+  margin-top: 20px;
+  margin-right: 5%;
+}

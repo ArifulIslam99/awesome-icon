@@ -1,0 +1,18 @@
+.icon
+{
+    border: 1px solid rgb(231, 227, 227);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.icon:hover {
+    transform: scale(1.2); 
+    background-color: beige;/* Expand the item on hover */
+  }
+
+ 
+  
