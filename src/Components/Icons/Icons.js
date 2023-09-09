@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDeleteLeft } from "@fortawesome/free-solid-svg-icons";
 import resetfig from "../../figures/reset.png";
 import { Button, Form } from "react-bootstrap";
+
+ 
+
 const Icons = () => {
   var [icons, setIcons] = useState([]);
   const [sortType, setSortType] = useState("");
@@ -64,7 +67,7 @@ const Icons = () => {
   };
 
   return (
-    <div className="my-5">
+    <div className="my-5" >
       {/* Implementing Search Bar*/}
       <div className="input-group mb-3 w-50 mx-auto">
         <input
@@ -97,7 +100,7 @@ const Icons = () => {
 
       <div className="filterDiv mx-auto">
         <div className="App">
-          <div className="menu">
+          <div className="menu"  data-aos="fade-right">
             <div
               className={`menu-option ${
                 selectedOption === "classic" ? "selected" : ""
@@ -136,7 +139,7 @@ const Icons = () => {
           {/* Display content based on the selected option */}
         </div>
 
-        <div className="selectForm">
+        <div className="selectForm" data-aos="fade-left">
           <Form.Select
             value={sortType}
             onChange={(event) => setSortType(event.target.value)}
@@ -150,7 +153,7 @@ const Icons = () => {
       </div>
 
       {/* Showing Icons from JsonData */}
-      <div className="mx-4">
+      <div className="mx-4" >
         <div className="icons-container center-div width-85">
           { 
           sortedData!==null ? (

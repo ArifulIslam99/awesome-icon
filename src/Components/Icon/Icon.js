@@ -20,7 +20,7 @@ const Icon = (props) => {
   };
 
   return (
-    <div className="icon">
+    <div className="icon" data-aos="zoom-in-down">
       <div
         style={{
           display: "flex",
