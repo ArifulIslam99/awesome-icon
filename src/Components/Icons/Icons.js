@@ -145,7 +145,7 @@ const Icons = () => {
             onChange={(event) => setSortType(event.target.value)}
             
           >
-            <option>Sorted View</option>
+            <option>Featured</option>
             <option value="ascending">A-Z</option>
             <option value="descending">Z-A</option>
           </Form.Select>
